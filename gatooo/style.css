@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+
+.seccion {
+    width: 50vw;
+    height: 10vh;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+h1{
+    margin-top: 20px;
+    color: white;
+    text-align: center; 
+}
+.nombre {
+    margin-top: 20px;
+}
+
+.cara-gato {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cara {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oreja {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.oreja.izquierda {
+    left: 150px;
+    top: -90px;
+}
+
+.oreja.derecha {
+    right: -200px;
+    top: -90px;
+}
+
+.cabeza {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #FFC107;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.ojo {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 50px;
+}
+
+.ojo.izquierdo {
+    left: 25px;
+}
+
+.ojo.derecho {
+    right: 25px;
+}
+
+.pupila {
+    position: relative;
+    width: 20px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nariz {
+    position: absolute;
+    top: 110px;
+    left: 75px;
+    width: 30px;
+    height: 20px;
+    background-color: #FF5733;
+    border-radius: 50% 50% 0 0;
+}
+
+.boca {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 4px solid #FF5733;
+    border-radius: 0 0 60px 60px;
+}
+
+.bigote {
+    position: absolute;
+    top: 110px;
+}
+
+.bigote.izquierda {
+    left: -20px;
+}
+
+.bigote.derecha {
+    right: -20px;
+}
+
+.linea {
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    margin: 6px 0;
+}
+
+.raza {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.info-gato {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+
